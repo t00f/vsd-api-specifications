@@ -118,11 +118,13 @@
             "uniqueScope": "no"
         }, 
         "httpPort": {
+            "default_value": "80", 
             "description": "Http proxy port for VCenter", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
+            "required": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
