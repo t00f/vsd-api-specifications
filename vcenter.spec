@@ -129,11 +129,13 @@
             "uniqueScope": "no"
         }, 
         "httpsPort": {
+            "default_value": "443", 
             "description": "Https proxy port of the VCenter", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
+            "required": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
