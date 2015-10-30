@@ -84,6 +84,11 @@
         }
     }, 
     "children": {
+        "applicationservice": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "eventlog": {
             "get": true, 
             "relationship": "child"
